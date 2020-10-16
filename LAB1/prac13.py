@@ -15,6 +15,16 @@ while(z>0):
     z=z//10
 print("Sum is "+str(sum1))    
 
+#Alternate Way
+import random
+z=random.randrange(1,1000)
+print(‘Number :’ + str(z))
+sum=0
+while (z!=0):
+w=z%10
+sum=sum+w
+z=z//10
+print(sum)
 
 
 
